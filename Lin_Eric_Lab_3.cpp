@@ -31,11 +31,12 @@ int main()
    cout << "#           Press the key combination Ctrl + Alt + Delete and select \"Task Manager\" =      #" << endl;
    cout << setw(1) << "#" << setw(91) << "#"                                                                << endl;
 
+   //Added # to surrond again
    cout << "#           Type \"Task Manager\" in the Windows Start menu search =                         #" << endl;
    cout << setw(1) << "#" << setw(91) << "#"                                                                << endl;
    cout << setfill('#');
    cout << setw(1) << "#" << setw(91) << "#"                                                                << endl;
-//added # to surrond
+   
 
    return 0;
 }
